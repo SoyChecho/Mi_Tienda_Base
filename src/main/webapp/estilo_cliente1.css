@@ -1,0 +1,127 @@
+@charset "ISO-8859-1";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  background-color: rgba(0, 0, 0, 0.452);
+}
+
+/*Utilizo outline para analizar la naturaleza de mis elementos (ver si son elementos a nivel de bloque o en línea).*/
+h1{
+  background-image:url("TIENDA VIRTUAL.png");
+  background-position:center;
+  background-size:1080px 280px;
+  padding: 20px;/*Cuanto de la imagen voy a mostrar*/
+  margin-bottom: 0p; /*Margenes de abajo y de arriba de ese elemnto*/
+  margin-top: 0;
+
+  
+}
+
+ul {
+/*outline: 1px solid blue;*/
+list-style: none; /*no se quiere mostrar ningún marcador en los elementos de una lista*/
+padding: 0;
+margin: 0;
+background: #2e2e2a;
+line-height: 40px;/*la altura de una casilla remarcada por líneas. Comúnmente se usa para establecer la distancia entre líneas de texto.*/
+overflow:auto;/*define qué se debe mostrar cuando el contenido se desborda de los extremos superior e inferior de un elemento en bloque*/
+font-family: sans-serif;
+}
+
+
+li {
+/*outline: 1px solid red;*/
+width: 100px;/* especifica la anchura del area de contenido de un elemento. El área de contenido está dentro del padding, borde, y margen del elemento.*/
+/*display: inline-block;*/
+text-align: center;/*alineación del contenido de un elemento de bloque*/
+float: left;/*ubica un elemento al lado izquierdo o derecho de su contenedor*/
+font-family: sans-serif;
+}
+
+a {
+/*outline: 1px solid green;*/
+text-decoration: none; /*establecer el formato de texto a subrayado (underline) y suprarrayado (overline), tachado (line-through) o parpadeo (blink). */
+display: block;/*Block elements display one after the other, as paragraphs do in the Writing Mode of that document*/
+color: #fff;
+font-family: sans-serif;
+}
+
+a:hover {
+/*cuando el usuario interactúa con un elemento con un dispositivo señalador, pero no necesariamente lo activa. Generalmente se activa cuando el usuario se desplaza sobre un elemento con el cursor (puntero del mouse).*/
+background: #f9a91a;
+color: #000;
+font-family: sans-serif;
+}
+
+.form-register {
+  width: 1000px;
+  background: #38393a;
+  padding: 30px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 4px;
+  font-family: sans-serif;
+  color: white;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.form-register h4 {
+  font-size: 22px;
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 65px;
+  border-bottom: 1px solid;
+  height: 40px;
+  color:rgb(255, 255, 255);
+}
+
+.controls {
+  width: 40%;
+  background: #252323;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+  border: 1px solid #0c0c0c;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+}
+.botons {
+  width: 20%;
+  background: #070707;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin-left: 100px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.consulta{
+
+  width: 20%;
+  background: #070707;
+  border: none;
+  padding: 12px;
+  color: white;
+  margin-left: 50px;
+  font-size: 16px;
+  font-family: sans-serif;
+}
+.consultando {
+  width: 30%;
+  background: #252323;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 20px;
+  margin-left: 240px;
+  border: 1px solid #0c0c0c;
+  font-family: sans-serif;
+  font-size: 18px;
+  color: white;
+}
